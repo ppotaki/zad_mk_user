@@ -1,0 +1,9 @@
+---
+- name: Create user
+  become: yes
+  user:
+    name: "{{ uname }}"
+    comment: "{{ uname }}"
+    shell: /bin/bash
+    create_home: true
+    password: "{{ upassword }}"

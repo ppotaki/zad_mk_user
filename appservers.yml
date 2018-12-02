@@ -1,0 +1,8 @@
+---
+- name: Make jenkins user on appservers
+  hosts: appservers
+  vars:
+    - uname: jenkins
+    - upassword: $5$KpRif4fuTeMX$C7ZV0KDG/aCOrC5ZRfUX81/TAkT2tbI.SWNFtTIebG9
+  roles:
+    - mk_user
