@@ -43,3 +43,7 @@ To use that command you need to have following command installed
 You will prompted for password.
 
 When new string will be genrated replace generated value with "upassword" varaible in playbooks there is also possible to replace user name with "uname" variable.
+
+To see if user has been created just run following command:
+
+> #ansible <inventory> -a "grep -r <user_name> /etc/passwd"
