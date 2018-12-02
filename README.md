@@ -2,7 +2,7 @@
 
 Playbook is creating admin and jenkins user on appservers and just admin user on dbservers.
 
-**Prequirements**
+**Prerequisites**
 
 You should create pair of SSH keys or use already created. It might be possible to change public key name if was called different than id_rsa.pub.
 
